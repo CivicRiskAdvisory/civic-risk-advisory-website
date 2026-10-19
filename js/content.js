@@ -1,17 +1,16 @@
 /* Civic Risk Advisory — website content.
-   Copy derives from CRA brand materials (Strategy on a Page v2, Offerings
-   Reference v2, one-pagers, bio blurbs). Single source of truth for the site.
+   Copy derives from CRA brand materials (Strategy on a Page v3, Offerings
+   Reference v3, one-pagers, bio blurbs). Single source of truth for the site.
    Voice: firm / third-person for firm-level sections; first-person "I" for
    DJ's bio and civic work. Value prop uses the "river of risk" framing:
    CRA works BOTH ends of the system, never one side of an adversarial line.
-   Em-dashes used sparingly, for hard asides only. No dollar figures (pricing
-   is internal). */
+   No dollar figures (pricing is internal). */
 window.CRA_SITE = (function () {
   return {
     identity: {
       firmName: 'Civic Risk Advisory',
       entity: 'Civic Risk Advisory LLC',
-      principal: 'DJ Falkson, FCAS',
+      principal: 'DJ Falkson, FCAS, MAAA',
       credentials: 'FCAS, MAAA',
       title: 'Founder & Principal',
       descriptor: 'Insurance · Policy · Resilience',
@@ -43,7 +42,7 @@ window.CRA_SITE = (function () {
         'A career spent pricing and building inside real carriers, now applied toward helping governments and research organizations see what\u2019s actually driving rising costs and shrinking coverage, and helping carriers, MGAs, and mutuals get their own numbers right.',
       ],
       pillars: [
-        { name: 'From inside the industry', text: 'Launched, priced, and managed insurance products from inside the industry. This is operator judgment, not the view from outside.' },
+        { name: 'From inside the industry', text: 'Fifteen years launching, pricing, and managing insurance products from inside the industry, at State Farm, Aspen, and Lemonade. This is operator judgment, not the view from outside.' },
         { name: 'Fluent upstream and downstream', text: 'Versed in the built environment that shapes where risk accumulates, and in the insurance ecosystem that manages it once it arrives.' },
         { name: 'At home in both rooms', text: 'Equally at ease defending a rate filing before a regulator and testifying at a city council hearing.' },
       ],
@@ -67,12 +66,12 @@ window.CRA_SITE = (function () {
         num: '02',
         name: 'Core actuarial services',
         summary:
-          'Reserving, pricing, and portfolio work for carriers, MGAs, and mutuals, from an actuary who led pricing at scale and works across the full actuarial toolkit.',
+          'Pricing, reserving, and portfolio work for carriers, MGAs, and mutuals, from an actuary who led pricing at scale and works across the full actuarial toolkit.',
         bullets: [
-          { label: 'Reserving', text: 'unpaid loss and LAE estimates and Statements of Actuarial Opinion that hold up to auditors, regulators, and boards.' },
           { label: 'Rate adequacy and filings', text: 'indications and filing support, plus model-based segmentation to sharpen risk selection with defensible numbers.' },
           { label: 'Portfolio profitability and growth', text: 'loss ratio, retention, and renewal analysis, including models that flag lapse and adverse development before they hit results.' },
           { label: 'Forecasts planning can rest on', text: 'profitability review built for annual planning and board reporting.' },
+          { label: 'Reserving', text: 'unpaid loss and LAE estimates and reserve reviews that hold up to auditors, regulators, and boards.' },
         ],
       },
       {
@@ -82,7 +81,7 @@ window.CRA_SITE = (function () {
           'Senior actuarial capacity, embedded and ongoing, for organizations that need one without a full-time hire. Not just advice: the technical work gets done.',
         bullets: [
           { label: 'For agencies and programs', text: 'standing actuarial oversight, rate and program review, and the vendor and RFP evaluation a public entity needs to buy insurance intelligently.' },
-          { label: 'For carriers and mutuals', text: 'recurring reserve reviews, rate monitoring, and portfolio work on a set cadence, rather than scoped fresh each quarter.' },
+          { label: 'For carriers and mutuals', text: 'recurring rate monitoring, reserve reviews, and portfolio work on a set cadence, rather than scoped fresh each quarter.' },
           { label: 'For research teams', text: 'an embedded methodology reviewer and a named practitioner your published work can stand behind.' },
           { label: 'For ventures', text: 'senior pricing leadership to build and file a rating plan and stand up the insurance function itself.' },
         ],
@@ -101,7 +100,7 @@ window.CRA_SITE = (function () {
       },
     ],
 
-    // ---- Who we work with (four buyers) ----
+    // ---- Who CRA works with (four buyers) ----
     segmentsHeading: 'Public agencies, research teams, ventures, and the carriers pricing the risk.',
     segments: [
       {
@@ -126,7 +125,7 @@ window.CRA_SITE = (function () {
         name: 'Established carriers & mutuals',
         who: 'Carriers, MGAs, and mutuals that need core actuarial support without a full-time hire.',
         need:
-          'Teams that need reserving, rate work, or portfolio review handled by an experienced actuary, on a scoped project or a standing cadence.',
+          'Teams that need rate work, reserving, or portfolio review handled by an experienced actuary, on a scoped project or a standing cadence.',
       },
     ],
 

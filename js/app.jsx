@@ -47,14 +47,14 @@ function Nav() {
   const links = [
     ['About', '#about-cra'],
     ['Services', '#services'],
-    ['Who we work with', '#segments'],
+    ['Who CRA works with', '#segments'],
     ['Principal', '#principal'],
   ];
   const top = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   return (
     <nav className={'nav' + (solid ? ' solid' : '')}>
       <div className="wrap nav-inner">
-        <div className="nav-brand" onClick={top} aria-label="Civic Risk Advisory — top">
+        <div className="nav-brand" onClick={top} aria-label="Civic Risk Advisory, top">
           <span className="brand-mast">Civic Risk Advisory</span>
         </div>
         <div className="nav-links">
@@ -168,7 +168,7 @@ function Segments() {
   return (
     <section className="band-navy sec-pad" id="segments">
       <div className="wrap">
-        <Eyebrow onDark>Who we work with</Eyebrow>
+        <Eyebrow onDark>Who CRA works with</Eyebrow>
         <h2 className="heading-serif" style={{ maxWidth: '24ch' }}>
           {S.segmentsHeading}
         </h2>
